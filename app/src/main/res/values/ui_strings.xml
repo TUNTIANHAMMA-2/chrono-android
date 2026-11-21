@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- 导航（统一 6 字母英文标签：Expiry / Wallet / Config） -->
+    <string name="nav_tab_expiry">Expiry</string>
+    <string name="nav_tab_vault">Wallet</string>
+    <string name="nav_tab_settings">Config</string>
+
+    <!-- 事项列表分区 -->
+    <string name="partition_expired">已到期</string>
+    <string name="partition_due_soon">即将到期</string>
+    <string name="partition_active">进行中</string>
+    <string name="partition_paused">已暂停</string>
+    <string name="empty_expiry_hint">暂无到期事项，点击下方按钮添加</string>
+    <string name="create_item">添加事项</string>
+
+    <!-- 事项状态与操作 -->
+    <string name="status_expired">已过期</string>
+    <string name="status_due_today">今天到期</string>
+    <string name="status_due_in_days">剩 %1$d 天</string>
+    <string name="status_not_started">未开始</string>
+    <string name="status_paused">已暂停</string>
+    <string name="status_active">有效</string>
+    <string name="action_renew">续期</string>
+    <string name="action_pause">暂停</string>
+    <string name="action_resume">恢复</string>
+    <string name="action_delete">删除</string>
+    <string name="action_edit">编辑</string>
+    <string name="action_save">保存</string>
+    <string name="action_cancel">取消</string>
+    <string name="action_close">关闭</string>
+    <string name="action_confirm">确认</string>
+
+    <!-- 编辑事项 -->
+    <string name="title_create_item">新建事项</string>
+    <string name="title_edit_item">编辑事项</string>
+    <string name="label_item_name">名称 *</string>
+    <string name="label_item_category">类别</string>
+    <string name="label_item_starts_on">开始日期 (YYYY-MM-DD)</string>
+    <string name="label_item_valid_through">到期日期 (YYYY-MM-DD) *</string>
+    <string name="label_item_cycle">周期</string>
+    <string name="cycle_none">无</string>
+    <string name="cycle_monthly">按月</string>
+    <string name="cycle_yearly">按年</string>
+    <string name="label_item_notes">备注</string>
+    <string name="hint_date_order_anomaly">提示：开始日期晚于到期日期</string>
+    <string name="delete_item_confirm_title">删除事项</string>
+    <string name="delete_item_confirm_message">确定要删除事项“%1$s”吗？删除后不可恢复。</string>
+    <string name="item_not_found_message">这个事项已经不在了</string>
+
+    <!-- 卡包（Wallet） -->
+    <string name="vault_title">Wallet</string>
+    <string name="vault_not_created_title">加密卡包尚未建立</string>
+    <string name="vault_not_created_desc">卡包用于在本机硬件级加密保存各类卡片、卡号、有效期与安全码。解密需使用指纹或锁屏密码认证。</string>
+    <string name="vault_create_button">创建卡包</string>
+    <string name="vault_no_screen_lock_warning">手机未设置安全锁屏（密码、PIN 或图案），请先前往系统设置开启。</string>
+    <string name="vault_locked_title">卡包已锁定</string>
+    <string name="vault_unlock_button">解锁卡包</string>
+    <string name="vault_lock_button">锁定</string>
+    <string name="vault_add_card">添加卡片</string>
+    <string name="vault_empty_cards">卡包内暂无卡片</string>
+    <string name="vault_broken_title">卡包打不开（系统密钥已失效或丢失）</string>
+    <string name="vault_broken_desc">常见原因：关闭了锁屏密码；或重装应用后用 root 工具还原了旧数据（数据回来了，但系统的密钥已回不来）。\n\n到期事项不受影响，依然可以正常使用。</string>
+    <string name="vault_broken_restore_btn">从备份恢复</string>
+    <string name="vault_broken_reset_btn">重置卡包</string>
+    <string name="vault_reset_confirm_title">重置卡包确认</string>
+    <string name="vault_reset_confirm_msg">重置将永久清空卡包内的所有卡片及密钥配置。此操作无法撤销。是否继续？</string>
+
+    <!-- 卡片详情与编辑 -->
+    <string name="card_detail_title">卡片详情</string>
+    <string name="card_edit_new_title">录入卡片</string>
+    <string name="card_edit_modify_title">编辑卡片</string>
+    <string name="card_field_name">卡片名称</string>
+    <string name="card_field_issuer">发卡行</string>
+    <string name="card_field_number">卡号</string>
+    <string name="card_field_exp_month">有效月 (MM)</string>
+    <string name="card_field_exp_year">有效年 (YY)</string>
+    <string name="card_field_expiry">有效期</string>
+    <string name="card_field_cvv">CVV</string>
+    <string name="card_field_notes">备注</string>
+    <string name="card_field_empty">未填写</string>
+    <string name="card_copy_number">复制卡号</string>
+    <string name="card_copy_expiry">复制有效期</string>
+    <string name="card_copy_cvv">复制 CVV</string>
+    <string name="card_clipboard_notice">复制出去之后，数据就已经离开保险箱了；系统大约一小时后会自动清空剪贴板。</string>
+    <string name="card_delete_confirm_title">删除卡片</string>
+    <string name="card_delete_confirm_msg">确定要删除卡片“%1$s”吗？删除后不可恢复。</string>
+
+    <!-- 备份与恢复 -->
+    <string name="backup_export_title">导出备份</string>
+    <string name="backup_restore_title">从备份恢复</string>
+    <string name="backup_location_label">备份文件位置</string>
+    <string name="backup_choose_location">选择导出位置</string>
+    <string name="backup_choose_file">选择备份文件</string>
+    <string name="backup_password_label">备份口令</string>
+    <string name="backup_confirm_password_label">确认口令</string>
+    <string name="backup_password_mismatch">两次输入的口令不一致</string>
+    <string name="backup_password_empty">请输入口令</string>
+    <string name="backup_notice_cloud">文件选择器里可能列出网盘。想完全留在本机，就选本机存储。</string>
+    <string name="backup_notice_password">口令忘了无法恢复。</string>
+    <string name="backup_broken_vault_notice">提示：保险箱打不开，这次备份只包含事项，不包含卡片。</string>
+    <string name="backup_restore_replace_notice">恢复只支持整体替换：用备份里的内容换掉手机上现有的全部事项和卡片，不做合并。</string>
+    <string name="backup_restore_confirm_msg">%1$d 个事项、%2$d 张卡，将覆盖现有全部数据。确定继续恢复吗？</string>
+    <string name="backup_restore_err_failed">口令不对或文件已损坏</string>
+    <string name="backup_action_export">确认导出</string>
+    <string name="backup_action_restore">确认覆盖并恢复</string>
+
+    <!-- 设置（Config） -->
+    <string name="settings_title">Config</string>
+    <string name="settings_early_reminder">提前 3 天提醒</string>
+    <string name="settings_early_reminder_desc">在事项到期前 3 天发送到期预警通知</string>
+    <string name="settings_hide_name_lockscreen">锁屏隐藏事项名称</string>
+    <string name="settings_hide_name_lockscreen_desc">锁屏通知仅显示“有事项到期”，不暴露具体名称</string>
+    <string name="settings_dynamic_color">动态取色</string>
+    <string name="settings_dynamic_color_desc">开启时配色来自壁纸；关闭时只用纯黑白灰</string>
+    <string name="settings_notification_permission">通知权限状态</string>
+    <string name="settings_permission_granted">已允许</string>
+    <string name="settings_permission_denied">未允许</string>
+    <string name="settings_btn_go_settings">去设置</string>
+    <string name="settings_sleep_explanation_title">休眠说明</string>
+    <string name="settings_sleep_explanation_desc">为尽量让每日到期检查继续运行，请在系统设置中允许本应用后台运行，并关闭“管理闲置应用”。</string>
+    <string name="settings_btn_app_info">打开应用信息</string>
+    <string name="settings_backup_export">导出备份</string>
+    <string name="settings_backup_restore">从备份恢复</string>
+    <string name="settings_security_level">密钥保护级别</string>
+    <string name="settings_version">版本号</string>
+</resources>

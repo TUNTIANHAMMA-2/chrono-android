@@ -1,0 +1,32 @@
+# Gradle 和 Android 的构建产物
+.gradle/
+build/
+.kotlin/
+captures/
+.externalNativeBuild/
+.cxx/
+*.apk
+*.aab
+
+# 本机配置（SDK 路径等）
+local.properties
+
+# IDE
+.idea/
+*.iml
+
+# 签名密钥（本来就该放在工程目录之外）
+*.jks
+*.keystore
+
+# tools/flow.py 与内部自动化流水线日志（脱敏不入公网库）
+.flow/
+reports/
+tools/
+AGENTS.md
+CLAUDE.md
+docs/dev-plan.md
+
+# 其他
+__pycache__/
+.DS_Store
