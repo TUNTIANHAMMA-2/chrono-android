@@ -32,12 +32,12 @@
 不想一张张手动找卡面图片？我们提供了一个**开箱即用的公共 CardFace 卡面聚合服务**，所有用户都可以直接免费使用：
 
 ```text
-https://cardface.toadtools.online
+https://cardface.agentoad.com
 ```
 
 **配置方法：**
 1. 打开 CHRONO，进入底部的 **`Config（设置）`** 页面；
-2. 找到 **「CardFace 在线卡面服务」**，填入上面的地址 `https://cardface.toadtools.online` 并保存；
+2. 找到 **「CardFace 在线卡面服务」**，填入上面的地址 `https://cardface.agentoad.com` 并保存；
 3. 在新增或编辑卡片时点击 **「匹配卡面」**，即可直接搜索并套用对应银行的真实卡面。
 
 > **隐私说明：** 在线卡面服务**仅接收发卡行、卡组织、卡种等公开标签**用于检索卡面图片，**绝不会上传卡号、尾号、有效期、CVV 或任何个人备注**；即使不配置该地址，App 内置的离线 BIN 号段识别与本地相册选图依然可以完整使用。如果你有自己的服务器，也可以单独部署轻量化后端 `cardface-server`。
