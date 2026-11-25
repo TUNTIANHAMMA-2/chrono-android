@@ -22,6 +22,16 @@
 
 ---
 
+## 功能一览（点击查看大图）
+
+| | | |
+| :---: | :---: | :---: |
+| [<img src="docs/showcase/chrono_poster_01.png" width="260" alt="01 · Expiry 周期与到期" />](docs/showcase/chrono_poster_01.png) | [<img src="docs/showcase/chrono_poster_02.png" width="260" alt="02 · Quick Entry 极速录入" />](docs/showcase/chrono_poster_02.png) | [<img src="docs/showcase/chrono_poster_03.png" width="260" alt="03 · Wallet 加密卡包" />](docs/showcase/chrono_poster_03.png) |
+| [<img src="docs/showcase/chrono_poster_04.png" width="260" alt="04 · 3D Physics 拟真物理引擎" />](docs/showcase/chrono_poster_04.png) | [<img src="docs/showcase/chrono_poster_05.png" width="260" alt="05 · Core Philosophy 核心哲学" />](docs/showcase/chrono_poster_05.png) | [<img src="docs/showcase/chrono_poster_06.png" width="260" alt="06 · Monet Back & Hologram" />](docs/showcase/chrono_poster_06.png) |
+| [<img src="docs/showcase/chrono_poster_07.png" width="260" alt="07 · Hardware Security & Backup" />](docs/showcase/chrono_poster_07.png) | [<img src="docs/showcase/chrono_poster_08.png" width="260" alt="08 · Monet Themes & Privacy" />](docs/showcase/chrono_poster_08.png) | [<img src="docs/showcase/chrono_poster_09.png" width="260" alt="09 · Open Source Release" />](docs/showcase/chrono_poster_09.png) |
+
+---
+
 ## 快速上手 & 在线卡面服务
 
 ### 1. 安装或构建
